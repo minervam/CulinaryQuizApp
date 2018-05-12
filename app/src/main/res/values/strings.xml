@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Culinary Quiz</string>
+    <string name="quiz_title">Test Your Culinary Know-How</string>
+    <string name="quiz_intro">Are you a chef in the making?</string>
+    <string name="scroll_down">(Scroll Down to Start)</string>
+
+    //Question and Choices for Question 1
+    <string name="question1">1. If you \"braise\" a meat what are you doing to it?</string>
+    <string name="checkall">(Check all that apply)</string>
+    <string name="q1_choice1">Cooking it in a pan at a high heat</string>
+    <string name="q1_choice2">Immersing it completely in stock or liquid while cooking</string>
+    <string name="q1_choice3">Searing it</string>
+    <string name="q1_choice4">Partially covering it in liquid while cooking</string>
+    <string name="q1_choice5">Shallow frying it in lots of oil</string>
+    <string name="q1_choice6">Finishing in the oven</string>
+
+    //Hint for Question 2
+    <string name="question2">2. Name one word to describe \"al dente\" pasta?</string>
+    <string name="hint">Enter your answer here</string>
+
+    //Question and Choices for Question 3
+    <string name="question3">3. If a recipe called for \"&#189; cup butter, melted\", how do you prepare that?</string>
+    <string name="q3_choice1">Melt butter and pour the melted butter into &#189; cup</string>
+    <string name="q3_choice2">Get &#189; cup of solid butter and then melt it</string>
+
+    //Question and Choices for Question 4
+    <string name="question4">4. What is the \"cut-in\" method?</string>
+    <string name="q4_choice1">Adding shortening to dry ingredients</string>
+    <string name="q4_choice2">Adding all the ingredients together at once</string>
+    <string name="q4_choice3">Mixing shortening and sugar, and then adding dry ingredients</string>
+    <string name="q4_choice4">Melting shortening and then folding it into the rest of the mixture</string>
+
+    //Question and Choices for Question 5
+    <string name="question5">5. If you are macerating fruit, what are you doing to it?</string>
+    <string name="q5_choice1">Coating it in icing sugar</string>
+    <string name="q5_choice2">Stirring it continuously over a high heat</string>
+    <string name="q5_choice3">Steeping it in liquid</string>
+    <string name="q5_choice4">Putting it under a grill until it begins to caramelize</string>
+
+    //Question and Choices for Question 6
+    <string name="question6">6. <b>True or False:</b> Beer can leaven a quick bread?</string>
+    <string name="q6_choice1">True</string>
+    <string name="q6_choice2">False</string>
+
+    //Question and Choices for Question 7
+    <string name="question7">7. Which of these herbs is used most often in a béarnaise sauce?</string>
+    <string name="q7_choice1">Thyme</string>
+    <string name="q7_choice2">Tarragon</string>
+    <string name="q7_choice3">Parsley</string>
+    <string name="q7_choice4">Oregano</string>
+
+    //Question and Choices for Question 8
+    <string name="question8">8. Which of these describes vegetables that are julienned?</string>
+    <string name="q8_choice1">Cut into long thin strips</string>
+    <string name="q8_choice2">Cut into small squares</string>
+    <string name="q8_choice3">Cut into thin, almost translucent circular slices</string>
+    <string name="q8_choice4">Cut into thick wedges</string>
+
+    //CQuestion and Choices for Question 9
+    <string name="question9">9. What does it mean to \"sweat\" a food (e.g. onions)?</string>
+    <string name="q9_choice1">Cook on a high heat until browned</string>
+    <string name="q9_choice2">Fry in large amounts of oil until crisp around the edges</string>
+    <string name="q9_choice3">Gently cook until translucent</string>
+
+    //Question and Choices for Question 10
+    <string name="question10">10. Which of these is a key ingredient in créme anglaise?</string>
+    <string name="q10_choice1">Flour</string>
+    <string name="q10_choice2">Egg Yolks</string>
+    <string name="q10_choice3">Gelatin</string>
+    <string name="q10_choice4">Liquer</string>
+
+    //Hint text on GET SCORE button
+    <string name="getScoreHint">Tap once to get score</string>
+
+    //Acknowledging the source of images, questions and answers
+    <string name="acknowledgement">Thank you to Buzzfeed for providing the content for this quiz!
+        For more questions see: https://bzfd.it/2rnQkDl </string>
+
+    //Toast string for perfect score
+    <string name="scoreMessage10">I can call you Chef! :D</string>
+
+    //Toast string for scoring 8 or 9
+    <string name="scoreMessage8">You\'ve got some skillz! Keep on cookin\'! :)</string>
+
+    //Toast string for scoring 6 or 7
+    <string name="scoreMessage6">You\'re getting there!</string>
+
+    //Toast string for scoring 4 or 5
+    <string name="scoreMessage4">You need more practice!</string>
+
+    //Toast string for scoring 2 or 3
+    <string name="scoreMessage2">You can still learn a thing or two!</string>
+
+    //Toast string for scoring 0 or 1
+    <string name="scoreMessage0">You just like to eat, don\'t cha ;)!</string>
+</resources>
