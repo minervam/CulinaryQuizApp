@@ -65,9 +65,9 @@
     //Question and Choices for Question 10
     <string name="question10">10. Which of these is a key ingredient in créme anglaise?</string>
     <string name="q10_choice1">Flour</string>
-    <string name="q10_choice2">Egg Yolks</string>
+    <string name="q10_choice2">Liquer</string>
     <string name="q10_choice3">Gelatin</string>
-    <string name="q10_choice4">Liquer</string>
+    <string name="q10_choice4">Egg Yolks</string>
 
     //Hint text on GET SCORE button
     <string name="getScoreHint">Tap once to get score</string>

@@ -53,8 +53,8 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentBottom="true"
                 android:paddingBottom="115dp"
-                android:paddingStart="100dp"
                 android:paddingLeft="100dp"
+                android:paddingStart="100dp"
                 android:text="@string/scroll_down"
                 android:textColor="#BDBDBD"
                 android:textSize="20sp" />
@@ -95,8 +95,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:text="@string/q1_choice1"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:onClick="onCheckbox1Clicked"/>
+                android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/q1_choice2"
@@ -104,8 +103,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:text="@string/q1_choice2"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:onClick="onCheckbox2Clicked"/>
+                android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/q1_choice3"
@@ -113,8 +111,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:text="@string/q1_choice3"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:onClick="onCheckbox3Clicked"/>
+                android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/q1_choice4"
@@ -122,8 +119,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:text="@string/q1_choice4"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:onClick="onCheckbox4Clicked"/>
+                android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/q1_choice5"
@@ -131,8 +127,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:text="@string/q1_choice5"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:onClick="onCheckbox5Clicked"/>
+                android:textAppearance="?android:textAppearanceMedium" />
 
             <CheckBox
                 android:id="@+id/q1_choice6"
@@ -140,9 +135,7 @@
                 android:layout_height="wrap_content"
                 android:paddingLeft="15dp"
                 android:text="@string/q1_choice6"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:onClick="onCheckbox6Clicked"/>
-
+                android:textAppearance="?android:textAppearanceMedium" />
 
             <TextView
                 android:id="@+id/question2"
@@ -521,7 +514,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="15dp"
-                    android:text="@string/q10_choice1"
+                    android:text="@string/q10_choice3"
                     android:textAppearance="?android:textAppearanceMedium" />
 
                 <RadioButton
@@ -529,7 +522,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingLeft="15dp"
-                    android:text="@string/q10_choice2"
+                    android:text="@string/q10_choice4"
                     android:textAppearance="?android:textAppearanceMedium" />
             </RadioGroup>
 

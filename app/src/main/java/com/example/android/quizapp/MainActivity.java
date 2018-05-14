@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * This method adds a score if answer to Question 1 is correct.
+     * The following ten methods adds a score if answer is correct.
      */
 
     public void q1Answer() {
@@ -54,16 +54,8 @@ public class MainActivity extends AppCompatActivity {
 
         if (q1Choice3CheckBoxChecked & q1Choice4CheckBoxChecked) {
             score += 1;
-        } else {
-            String wrongAnswer = "Try again!";
-            Toast.makeText(this, wrongAnswer, Toast.LENGTH_SHORT).show();
         }
-
     }
-
-    /**
-     * This method adds a score if answer to Question 2 is correct.
-     */
 
     public void q2Answer() {
         EditText answerField = (EditText) findViewById(R.id.question2_answer);
@@ -131,15 +123,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void q10Answer() {
-        RadioButton q10Choice2RadioButton = (RadioButton) findViewById(R.id.q10_choice2);
-        boolean q10Choice2Selected = q10Choice2RadioButton.isChecked();
-        if (q10Choice2Selected) {
+        RadioButton q10Choice4RadioButton = (RadioButton) findViewById(R.id.q10_choice4);
+        boolean q10Choice4Selected = q10Choice4RadioButton.isChecked();
+        if (q10Choice4Selected) {
             score += 1;
         }
     }
 
     /**
-     * This method is called when the scores are added.
+     * This method is called when the incremented scores are added.
      */
     public void calculateScore() {
 
@@ -188,12 +180,12 @@ public class MainActivity extends AppCompatActivity {
         score_button.requestLayout();
     }
 
-        /**
-         * This method is called when the RESET button is clicked.
-         */
-        public void resetQuiz (View view){
-            score = 0;
-            Intent intent = new Intent(MainActivity.this, MainActivity.class);
-            startActivity(intent);
-        }
+    /**
+     * This method is called when the RESET button is clicked.
+     */
+    public void resetQuiz(View view) {
+        score = 0;
+        Intent intent = new Intent(MainActivity.this, MainActivity.class);
+        startActivity(intent);
+    }
 }
