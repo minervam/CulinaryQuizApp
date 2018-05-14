@@ -1,17 +1,13 @@
 package com.example.android.quizapp;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -46,13 +42,26 @@ public class MainActivity extends AppCompatActivity {
 
     public void q1Answer() {
 
+        CheckBox q1Choice1CheckBox = (CheckBox) findViewById(R.id.q1_choice1);
+        boolean q1Choice1CheckBoxChecked = q1Choice1CheckBox.isChecked();
+
+        CheckBox q1Choice2CheckBox = (CheckBox) findViewById(R.id.q1_choice2);
+        boolean q1Choice2CheckBoxChecked = q1Choice2CheckBox.isChecked();
+
         CheckBox q1Choice3CheckBox = (CheckBox) findViewById(R.id.q1_choice3);
         boolean q1Choice3CheckBoxChecked = q1Choice3CheckBox.isChecked();
 
         CheckBox q1Choice4CheckBox = (CheckBox) findViewById(R.id.q1_choice4);
         boolean q1Choice4CheckBoxChecked = q1Choice4CheckBox.isChecked();
 
-        if (q1Choice3CheckBoxChecked & q1Choice4CheckBoxChecked) {
+        CheckBox q1Choice5CheckBox = (CheckBox) findViewById(R.id.q1_choice5);
+        boolean q1Choice5CheckBoxChecked = q1Choice5CheckBox.isChecked();
+
+        CheckBox q1Choice6CheckBox = (CheckBox) findViewById(R.id.q1_choice6);
+        boolean q1Choice6CheckBoxChecked = q1Choice6CheckBox.isChecked();
+
+        if (!q1Choice1CheckBoxChecked && !q1Choice2CheckBoxChecked && q1Choice3CheckBoxChecked &&
+                q1Choice4CheckBoxChecked && !q1Choice5CheckBoxChecked && !q1Choice6CheckBoxChecked) {
             score += 1;
         }
     }
@@ -61,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         EditText answerField = (EditText) findViewById(R.id.question2_answer);
         String correctAnswer = answerField.getText().toString().replace(" ", "");
 
-        if (correctAnswer.equals("Firm")) {
+        if (correctAnswer.equalsIgnoreCase("Firm")) {
             score += 1;
         }
     }
